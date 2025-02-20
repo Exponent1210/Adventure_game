@@ -7,7 +7,7 @@ public class CaveScene implements Scene {
         // プレイヤーの所持品に宝箱を追加
         context.getPlayer().addItem("宝箱");
         System.out.println("アイテムを入手しました: 宝箱");
-        System.out.println("ゲームクリアです");
+        System.out.println("ゲームクリアです..");
         return "end";
     }
 }
